@@ -1,0 +1,110 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+  body 
+  main 
+    section.author 
+      .container
+        .author__container 
+          .author__info
+            h6.contact__direction.author__direction Home Page 
+              span.contact__directionLine.author__directionLine  
+              | Author Blog
+            .author__about 
+              p.author__hello HI, AND WELCOME!
+              h2.author__name Olivere Moore 
+              p.author__description  I am the author of the “Norge Casino” which is the number one best guide in Australia on the subject of casino gambling. I write a lot about pokies and I’m also going to answer some common questions that online casino players have. Now, before you immerse into my blog, let me give you some background information explaining why I possess such deep knowledge.
+              .author__socials.author__socials--remove 
+                .author__social
+                  a(href="#") 
+                    img.author__socialImg(src="./image/1.svg", alt="")
+                .author__social
+                  a(href="#") 
+                    img.author__socialImg(src="./image/twitter.svg", alt="")
+                .author__social
+                  a(href="#") 
+                    img.author__socialImg(src="./image/linkedin.svg", alt="")
+                .author__social
+                  a(href="#") 
+                    img.author__socialImg(src="./image/instagram.svg", alt="")
+          .author__img 
+            img(src="./image/man.png", alt="its me").author__authorImg
+          .author__socials.author__socials--mobile 
+            .author__social
+              img.author__socialImg(src="./image/1.svg", alt="")
+            .author__social
+              img.author__socialImg(src="./image/twitter.svg", alt="")
+            .author__social
+              img.author__socialImg(src="./image/linkedin.svg", alt="")
+            .author__social
+              img.author__socialImg(src="./image/instagram.svg", alt="")
+    section.about 
+      .container.container__pading  
+        .about__container 
+          .about__about 
+            h2.about__title About author 
+            p.about__description The first person who introduced me to the gambling world was my nana. Have you ever seen those old ladies intending to hit a slot machine jackpot in Vegas casinos? My nana was the icon among them. She could identify the one-armed bandit which was full and ready to give you a desired jackpot in a second! And, of course, nothing could stop her on her way to take a seat at the machine she picked. I grew up with a strong intention to hit the jackpot of my own one day. Having analytical thinking helped me to figure out my personal ultimate tips and tricks on winning. These will be explained in detail to the readers of my reviews, so stay tuned!
+          .about__indicators
+            .about__indicator 
+              p.about__value 10+
+              p.about__experience Experience in marketing
+            .about__indicator 
+              p.about__value 3
+              p.about__experience Casino reviewer
+            .about__indicator 
+              p.about__value 20
+              p.about__experience Countries visited
+    section.casino 
+      .container 
+        h2.casino__title What is hidden inside the whole online casino industry?
+        .casino__container 
+          .casino__block
+            .casino__left
+              img(src="./image/lasvegas.png", alt="lasvegas").casino__img.casino__img--remove 
+              p.casino__number.casino__number--mobile 01
+            .casino__right
+              p.casino__description I’ve been to Las Vegas to visit the facility where the Nevada Gaming Control Board tests its slot machines, and I interviewed the manager of that department.
+          .casino__block
+            .casino__left
+              p.casino__number 02
+            .casino__right
+              p.casino__description I’ve also been to Atlantic City where I visited the facility that tests slot machines for the New Jersey Casino Control Commission, and I interviewed the Director of its Division of Gaming Enforcement.
+          .casino__block 
+            .casino__left
+              p.casino__number 03
+            .casino__right 
+              p.casino__description I’ve also visited the headquarters of Gaming Labs International, which is the world’s largest independent laboratory for testing electronic gaming machines, and I interviewed its Director of Operations about the company’s procedures.
+          .casino__block 
+            .casino__left
+              p.casino__number 04
+            .casino__right 
+              p.casino__description I’ve also gone to Reno, Nevada, where I took a private tour of the headquarters of International Gaming Technology, which is the world’s largest manufacturer of slot machines. Plus, while I was there, I interviewed the company’s Chief Software Engineer.
+        p.casino__information Finally, I’ve interviewed slot managers at major casinos in Las Vegas, Reno, Atlantic City, and elsewhere in the U.S. to get all the best for my Aussie readers. 
+          br
+          br
+          | As a result, I teamed up with other gambling enthusiasts to serve you the information that is truly reliable. The gambling world is constantly evolving and I have to be the first person to find and deliver the up-to-date news.
+    section.question 
+      .container 
+        .question__container 
+          h2.question__title Do you have any questions?
+          p.question__description We are happy to answer any questions. Submit a message in the form below
+          form.question__form(action="#")
+            .question__column.error 
+              label(for="Name").question__label Name
+              input(type="text" placeholder="Example, Olivere").question__input 
+              .question__columnError 
+                p.question__columnText Incorrect
+                p.question__columnValid Please enter a valid email
+            .question__column 
+              label(for="email").question__label E-mail*
+              input(type="email" placeholder="example@gmail.com" required).question__input 
+            .question__column 
+              label(for="text").question__label Message*
+              textarea(placeholder="Example, I need help choosing a casino" required).question__input.question__textarea
+            p.question__privacy.question__privacy--mobile Clicking the "Leave a message" button, you agree to the terms of the Privacy Policy and User Agreement
+            button.question__btn.btn__hover.btn__active Leave a message
+          p.question__privacy.question__privacy--remove Clicking the "Leave a message" button, you agree to the terms of the Privacy Policy and User Agreement
